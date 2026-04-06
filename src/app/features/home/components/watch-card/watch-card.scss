@@ -1,0 +1,43 @@
+.main {
+  width: 100%;
+  min-height: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--color-bg-secondary);
+  cursor: pointer;
+
+
+  .img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: 0.5s;
+  }
+
+  .img:hover {
+    scale: 1.1;
+
+  }
+
+  .body {
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .name {
+      // colr
+    }
+
+    .desription {
+      font-size: small;
+    }
+
+    .price {
+      font-size: 20px;
+      font-weight: 100;
+    }
+  }
+}

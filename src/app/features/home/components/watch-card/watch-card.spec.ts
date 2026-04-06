@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SubmitForm } from './submit-form';
+import { WatchCard } from './watch-card';
 
-describe('SubmitForm', () => {
-  let component: SubmitForm;
-  let fixture: ComponentFixture<SubmitForm>;
+describe('WatchCard', () => {
+  let component: WatchCard;
+  let fixture: ComponentFixture<WatchCard>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [SubmitForm]
+      imports: [WatchCard]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(SubmitForm);
+    fixture = TestBed.createComponent(WatchCard);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

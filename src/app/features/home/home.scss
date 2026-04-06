@@ -1,0 +1,16 @@
+.main {
+  width: 100%;
+  min-height: 100vh;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: var(--color-bg-primary);
+
+  // if screen is small
+  .card-container {
+    width: clamp(190px, 40%, 200px);
+  }
+}

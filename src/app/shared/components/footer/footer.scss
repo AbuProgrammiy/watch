@@ -20,7 +20,7 @@ $pale-gray: rgba($color: gray, $alpha: 0.5);
     align-items: center;
     border-radius: 50%;
     font-size: 20px;
-    color: black;
+    // color: black;
     border: 1px solid black;
     cursor: pointer;
   }
@@ -40,6 +40,6 @@ $pale-gray: rgba($color: gray, $alpha: 0.5);
   justify-content: center;
   align-items: center;
   font-size: smaller;
-  color: var(--text-color);
+  // color: var(--text-color);
   background-color: black;
 }
