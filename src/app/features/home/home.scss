@@ -1,7 +1,7 @@
 .main {
   width: 100%;
   min-height: 100vh;
-  padding: 50px 20px;
+  padding: 50px clamp(10px, 1vw, 20px);
   display: flex;
   justify-content: center;
   align-items: start;
@@ -11,6 +11,6 @@
 
   // if screen is small
   .card-container {
-    width: clamp(190px, 40%, 200px);
+    width: clamp(170px, 40%, 200px);
   }
 }
