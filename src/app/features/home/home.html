@@ -1,5 +1,5 @@
 <div class="main">
-  @for (item of watches; track $index) {
+  @for (item of dataService.watches; track $index) {
     <div class="card-container">
       <app-watch-card [watch]="item"></app-watch-card>
     </div>

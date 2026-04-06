@@ -1,0 +1,12 @@
+<div class="main">
+  <button class="back-btn" (click)="back()">
+    <i class="pi pi-arrow-left"></i>
+  </button>
+  <img class="img" [src]="selectedWatch?.imgUrl" alt="rsamcha" />
+  <h4 class="name">{{ selectedWatch?.name }}</h4>
+  <p class="description">{{ selectedWatch?.longDescription }}</p>
+  <div>
+    <p>Price:</p>
+    <p class="price">{{ selectedWatch?.price }}</p>
+  </div>
+</div>
