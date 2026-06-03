@@ -24,5 +24,5 @@ export interface WatchModel {
   description: string;
   longDescription?: string;
   price: string;
-  imgUrl: string;
+  imgUrl: string[];
 }

@@ -1,10 +1,8 @@
 import { Component, signal } from '@angular/core';
-import { Button } from 'primeng/button';
 import { Drawer } from 'primeng/drawer';
-
 @Component({
   selector: 'app-navbar',
-  imports: [Drawer, Button],
+  imports: [Drawer],
   templateUrl: './navbar.html',
   styleUrl: './navbar.scss',
 })
