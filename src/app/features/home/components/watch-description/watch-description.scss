@@ -7,6 +7,7 @@
   flex-direction: column;
   gap: 15px;
   background-color: var(--color-bg-secondary);
+  color: var(--color-text-primary);
 
   .back-btn {
     width: 100px;
@@ -15,7 +16,8 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    border: 2px solid white;
+    border: 2px solid var(--color-text-primary);
+    color: var(--color-text-primary);
     background-color: unset;
   }
 
