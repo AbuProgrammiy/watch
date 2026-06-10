@@ -1,5 +1,5 @@
 <div class="main" (click)="navigate()">
-  <img class="img" [src]="watch()?.imgUrl" alt="soat" />
+  <img class="img" [src]="watch()?.imgUrl?.[0]" alt="soat" />
   <div class="body">
     <h4 class="name">{{ watch()?.name }}</h4>
     <p class="desription">{{ watch()?.description }}</p>
