@@ -11,6 +11,7 @@ $pale-gray: rgba($color: gray, $alpha: 0.5);
   display: flex;
   justify-content: center;
   gap: 10px;
+  background-color: black;
 
   .content {
     width: 60px;
@@ -33,7 +34,7 @@ $pale-gray: rgba($color: gray, $alpha: 0.5);
 
 .address-info {
   width: 100%;
-  padding: 0 10px;
+  padding: 10px;
   padding-bottom: 10px;
   text-align: center;
 }

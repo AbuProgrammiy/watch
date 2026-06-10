@@ -1,0 +1,41 @@
+<div class="main" [formGroup]="form">
+  <h3 class="header">Biz bilan aloqa!</h3>
+  <div class="control">
+    <label class="label">Telefon raqamingiz:</label>
+    <p-inputmask
+      styleClass="w-full"
+      mask="+99-999-9999"
+      placeholder="+99-999-9999"
+      [formControlName]="'phoneNumber'"
+    />
+  </div>
+  <div class="control">
+    <label class="label">Ismingiz:</label>
+    <input
+      type="text"
+      pInputText
+      placeholder="Sardor"
+      [formControlName]="'fullName'"
+    />
+  </div>
+  <div class="control">
+    <label class="label">Savolingiz:</label>
+    <textarea
+      rows="3"
+      cols="30"
+      placeholder="Yetkazib berish hizmati bormi?"
+      pTextarea
+      [formControlName]="'question'"
+    ></textarea>
+  </div>
+  <p-button
+    label="Jo'natish"
+    icon="pi pi-send"
+    iconPos="right"
+    severity="contrast"
+    [disabled]="form.invalid"
+    (onClick)="submit()"
+  />
+</div>
+
+<p-confirmdialog />

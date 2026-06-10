@@ -1,11 +1,12 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { DataService } from '../../../../core/services/data-service';
+import { SubmitForm } from "../../../../shared/components/submit-form/submit-form";
 import { WatchModel } from '../watch-card/watch-card';
 
 @Component({
   selector: 'app-watch-description',
-  imports: [],
+  imports: [SubmitForm],
   templateUrl: './watch-description.html',
   styleUrl: './watch-description.scss'
 })

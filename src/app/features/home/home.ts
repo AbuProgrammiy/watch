@@ -1,11 +1,13 @@
 import { Component, inject } from '@angular/core';
 import { DataService } from '../../core/services/data-service';
+import { SubmitForm } from "../../shared/components/submit-form/submit-form";
 import { WatchCard } from "./components/watch-card/watch-card";
 
 @Component({
   selector: 'app-home',
   imports: [
-    WatchCard
+    WatchCard,
+    SubmitForm
   ],
   templateUrl: './home.html',
   styleUrl: './home.scss'
